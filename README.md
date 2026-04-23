@@ -52,11 +52,17 @@ Although the digital signal on the Sequence Generator module’s output is repet
 ## Part B: Generating the QPSK Signal
 setting up a QPSK modulator on its own 
  
-  <img src="" alt="A">
+  <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/7ad6adc03c4d909bf52bb017c0bd13096385f6c9/Diagrams/fig11.jpeg" alt="A">
 
-  <img src="" alt="A">
+This set-up (excluding the digital data modelling) can be represented by the block diagram in Figure below. Notice that the bit-splitter's two outputs are connected to independent Multiplier modules. The other input to the Multiplier modules are two 100kHz sinewaves that are out of phase with each other by exactly 90°. This is a fundamental requirement of QPSK.
 
+  <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/7ad6adc03c4d909bf52bb017c0bd13096385f6c9/Diagrams/fig12.jpeg" alt="A">
 
+  To obtain a stable trace on the scope's display, the Trigger Source signal is taken from the Sequence Generator module's SYNC output for the same reason as earlier but this time via a divide-by-2 circuit. The divider is necessary because the digital signals used to phase modulate the two carriers is a frequency that is half the bit rate of the original digital data signal.
+
+<details>
+  <summary><b><i>OUTPUT DOCUMENTATION</i></b></summary>
+   
   <img src="" alt="A">
 
 
