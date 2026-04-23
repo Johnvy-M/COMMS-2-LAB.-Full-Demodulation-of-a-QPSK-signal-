@@ -21,3 +21,37 @@ This is a laboratory report on Communication 2. In this report, viewers can see 
 
 
 ## Part A: Verifying Serial to Parallel Operation
+The Sequence Generator module is used to model digital data. The 2-bit Serial-to-Parallel Converter module is used to split the digital data up into streams of even and odd bits. This function would be the first step in generating a QPSK signal. 
+The outputs from the Serial-to-Parallel Converter module are connected to the inputs of the 2-bit Parallel-to-Serial Converter module. This function would be the last step in recovering the message from a QPSK signal.
+Although the digital signal on the Sequence Generator module’s output is repetitive, the pulse sequence is too irregular for the scope to use the signal to obtain a stable display. So, the scope’s External Trigger Source is connected to the Sequence Generator’s SYNC output for this purpose. The SYNC output is a signal with a single mark that corresponds with the first bit in the Sequence Generator module’s data outputs.
+
+<img src="" alt="A">
+
+<details>
+  <summary><b><i>OUTPUT DOCUMENTATION</i></b></summary>
+
+  <img src="" alt="A">
+
+  <img src="" alt="A">
+
+  <img src="" alt="A">
+
+  <img src="" alt="A">
+
+  <img src="" alt="A">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
