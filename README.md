@@ -12,6 +12,7 @@ This is a laboratory report on Communication 2. In this report, viewers can see 
 * Part D: Full Demodulation of the QPSK Signal
 * Part E: Observation of Noise on Recovered Signals
 * Results & Data Gatherings
+* Conclusion & Learnings
 
 
 ## Introduction to QPSK 
@@ -158,11 +159,18 @@ This set-up (excluding the digital data modelling) can be represented by the blo
 #### <i>-0dB applied Noise</i>
 [![Watch the Video](https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/7215b83cf63e8b4d09f4ccea784e049f4a1648a3/output2/0db.png)](https://drive.google.com/file/d/1xZA787ruFhSfD68xDWclEKZ6Lr_SrR_U/view?usp=sharing)
 
-</detais>
+</details>
 
 
 
+## Results & Data Gatherings
 
+[<i>Click here to download(Questions & Answers)<i>](https://github.com/Johnvy-M/COMMS-2-LAB.---Modulation-and-Coding-Techniques/blob/d368dc32fd94a497c89736fd5a70b451a786fe89/Data%20%26%20Results/Amplitude_Modulation(exp)%20Tables_and_Data.pdf)
+
+## Conclusion & Learnings
+this experiment demonstrated that theoretical modulation schemes rely heavily on precise hardware implementation. By observing the effects of noise and phase shifts, I have gained a better appreciation for the complexities of maintaining signal integrity. The experience in tuning receiver modules has reinforced that rigorous synchronization and meticulous configuration are essential for reliable data recovery in any telecommunications system.
+
+This experiment examined the execution of a QPSK communication system utilizing the Emona Telecoms-Trainer 101. By executing these phases, I connected theoretical knowledge with practical application, enhancing my comprehension of how actual channel impairments—such as noise, bandwidth limitations, and phase shifts—affect signal integrity. An essential takeaway was the significant role of carrier synchronization; employing "stolen" carriers enabled me to focus on the demodulation procedure and practice the manual adjustments needed to obtain separate I and Q bit-streams. In the end, we gained an extra knowledge on how QPSK works. 
 
 
 
