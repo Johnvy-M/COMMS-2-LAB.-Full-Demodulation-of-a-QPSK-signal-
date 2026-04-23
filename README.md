@@ -30,10 +30,12 @@ Although the digital signal on the Sequence Generator module’s output is repet
 
 <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/622533e635131f223ac106d4d41b99d254238210/Diagrams/fig2.jpeg" alt="A">
 
+
+<b><i>A.1 - Experiment Result of Part A</i></b> 
 <details>
   <summary><b><i>OUTPUT DOCUMENTATION</i></b></summary>
 
-   #### <b><i>Verifying Serial-to-Parallel Operation Signal</i></b>
+   #### <i>Verifying Serial-to-Parallel Operation Signal</i>
    
   <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/622533e635131f223ac106d4d41b99d254238210/OUTPUTS/1.jpeg" alt="A">
 
@@ -60,17 +62,112 @@ This set-up (excluding the digital data modelling) can be represented by the blo
 
   To obtain a stable trace on the scope's display, the Trigger Source signal is taken from the Sequence Generator module's SYNC output for the same reason as earlier but this time via a divide-by-2 circuit. The divider is necessary because the digital signals used to phase modulate the two carriers is a frequency that is half the bit rate of the original digital data signal.
 
+
+<b><i>B.1 - Experiment Result of Part B</i></b> 
 <details>
-  <summary><b><i>OUTPUT DOCUMENTATION</i></b></summary>
+  <summary><i>OUTPUT DOCUMENTATION</i></summary>
+  
+  #### <b><i> STEP BY STEP GENERATING OF THE QPSK </b></i> 
+  <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/73ea7ea346c758593ef3585d7aac61e79d82fdbf/OUTPUTS/9.jpg" alt="A">
+
+  <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/73ea7ea346c758593ef3585d7aac61e79d82fdbf/OUTPUTS/11.jpg" alt="A">
+
+  <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/73ea7ea346c758593ef3585d7aac61e79d82fdbf/OUTPUTS/13.jpg" alt="A">
+
+  <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/73ea7ea346c758593ef3585d7aac61e79d82fdbf/OUTPUTS/15.jpg" alt="A">
+
+  <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/73ea7ea346c758593ef3585d7aac61e79d82fdbf/OUTPUTS/17.jpg" alt="A">
+
+  <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/73ea7ea346c758593ef3585d7aac61e79d82fdbf/OUTPUTS/19.jpg" alt="A">
+
+  <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/73ea7ea346c758593ef3585d7aac61e79d82fdbf/OUTPUTS/20.jpg" alt="A">
+
+  <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/73ea7ea346c758593ef3585d7aac61e79d82fdbf/OUTPUTS/21.jpg" alt="A">
+
+   <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/73ea7ea346c758593ef3585d7aac61e79d82fdbf/OUTPUTS/22.jpg" alt="A">
+
+   <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/73ea7ea346c758593ef3585d7aac61e79d82fdbf/OUTPUTS/23.jpg" alt="A">
+
+  <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/73ea7ea346c758593ef3585d7aac61e79d82fdbf/OUTPUTS/24.jpg" alt="A">
+
+  <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/73ea7ea346c758593ef3585d7aac61e79d82fdbf/OUTPUTS/25.jpg" alt="A">
+
+   </details>
    
-  <img src="" alt="A">
+    
+  ## Part C: Modeling Channel Conditions
+  The channel in any communications system exhibits the following attributes. First, it’s a source of noise. Second, it is band-limited. Third, it effectively phase shifts the transmission signal because it takes time for the transmitted signal to reach the destination. All three of these attributes can be modelled on the Emona Telecoms-Trainer 101 and this part of the experiment gets you to do so for your QPSK modulation-demodulation system.
+   
+   <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/c39baca04559ed306b9d12fdf2c7c22e37a12931/Diagrams/fig15.jpeg" alt="A">
+
+ <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/c39baca04559ed306b9d12fdf2c7c22e37a12931/Diagrams/fig16.jpeg" alt="A">
+
+ 
+ ## Part D: Full Demodulation of the QPSK Signal
+ It’s not possible to implement both a QPSK modulator and full demodulator with one Emona Telecoms-Trainer 101. However, it is possible to do with the use of the ETT-101-20 QPSK DEMOD board. Although this is not especially difficult, any errors in wiring can be tricky to locate. So, Part D gets you to set-up the full QPSK demodulator in stages.
+ 
+ <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/04af2008164fd8751dc554e7f12396f96b29955d/Diagrams/fig17.jpeg" alt="A">
+
+ The additions to the set-up in Figure above can be represented by the block diagram in Figure below. If you compare it to previous Figure in the preliminary discussion, you’ll notice that it implements the front end of the QPSK demodulator. Ordinarily, the carriers would be generated locally (ie at the receiver) but they have been "stolen" from the modulator so that the pairs of carriers are synchronised which is a necessary requirement for QPSK demodulation.
+ 
+<i>[Note: Methods for synchronising transmitter and local carriers are dealt with in other experiments.]</i>
+
+   <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/d71025bd78bb31ab625402af1a8a490b0adc3c65/Diagrams/fig23.jpeg" alt="A">
+
+   As the set-up has not yet been "tuned", the signal on the Tuneable LPF module's output likely consists of two quadrature components. Ordinarily, the phase of the local carriers is varied (while maintaining their $90^\circ$ phase separation) to correct for the phase delay in the channel until only one opposing quadrature component appears on each LPF output. As the local carriers (and the bit-clock) have been stolen from the QPSK modulator in this case, this adjustment is modelled by varying the phase delay in the channel instead.
+
+   <b><i>D.1 - Experiment Result of Part D</i></b> 
+      <details>
+        <summary><i>OUTPUT DOCUMENTATION</i></summary>
+
+   #### <b><i> Full Demodulation of the QPSK Signal </b></i> 
+
+   <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/d71025bd78bb31ab625402af1a8a490b0adc3c65/OUTPUTS/27.jpg" alt="A">
+
+   <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/d71025bd78bb31ab625402af1a8a490b0adc3c65/OUTPUTS/29.jpg" alt="A">  
+
+   <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/d71025bd78bb31ab625402af1a8a490b0adc3c65/OUTPUTS/30.jpg" alt="A">
+
+   <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/d71025bd78bb31ab625402af1a8a490b0adc3c65/OUTPUTS/31.jpg" alt="A">  
+
+<img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/92e2e2ae9cad5d9e1600f6206d35fc778fad575a/OUTPUTS/32.jpg" alt="A">
+
+   <img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/92e2e2ae9cad5d9e1600f6206d35fc778fad575a/OUTPUTS/34.jpg" alt="A">  
+
+</details>
+
+   ## Part E: Observation of Noise on Recovered Signals
+   The current set-up introduces an amount of noise that is 20dB below the maximum that the Noise Generator generates. Part E gets you to observe the effects of noise in the channel on the recovered digital data signal.
+
+   <b><i>D.1 - Experiment Result of Part D</i></b> 
+   <details>
+     <summary><i>OUTPUT DOCUMENTATION</i></summary>
+     
+
+#### <i> Noise on recovered Signals</i>
+<img src="https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/7215b83cf63e8b4d09f4ccea784e049f4a1648a3/OUTPUTS/38.jpg" alt="A">
+
+     
+### Click to watch the Clips!
+#### <i>-20dB applied Noise</i>
+[![Watch the Video](https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/7215b83cf63e8b4d09f4ccea784e049f4a1648a3/output2/20db.png)](https://drive.google.com/file/d/1GjcUQ4Ub_qOw0YzC5Ka0QSrM8BIKmX96/view?usp=sharing)
+
+#### <i>-6dB applied Noise</i>
+[![Watch the Video](https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/7215b83cf63e8b4d09f4ccea784e049f4a1648a3/output2/6db.png)](https://drive.google.com/file/d/13_sHNrLaFC7gMufohNN55UZI_PQN6UWi/view?usp=sharing)
+
+#### <i>-0dB applied Noise</i>
+[![Watch the Video](https://github.com/Johnvy-M/COMMS-2-LAB.-Full-Demodulation-of-a-QPSK-signal-/blob/7215b83cf63e8b4d09f4ccea784e049f4a1648a3/output2/0db.png)](https://drive.google.com/file/d/1xZA787ruFhSfD68xDWclEKZ6Lr_SrR_U/view?usp=sharing)
+
+</detais>
 
 
-  <img src="" alt="A">
 
-  <img src="" alt="A">
 
-  <img src="" alt="A">
+
+
+
+
+
 
 
 
